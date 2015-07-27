@@ -55,7 +55,9 @@ John
 Johnson
 26
 { 
-    street: "1st Street", city: "Los Angeles", country: "USA" 
+    street: "1st Street", 
+    city: "Los Angeles", 
+    country: "USA" 
 }
 undefined
 undefined
