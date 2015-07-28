@@ -4,10 +4,10 @@ Recursively `Object.freeze()` objects.
 
 [![NPM Version][npm-image]][npm-url]
 [![NPM Downloads][downloads-image]][downloads-url]
-[![License][license]][license-url]
+[![License][license-image]][license-url]
 [![Travis Build][travis-image]][travis-url]
 
-[![NPM Statistics](https://nodei.co/npm/deep-freeze-node.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/deep-freeze-node/)
+[![NPM Statistics][npm-statistics-image]][npm-url]
 
 ## Installation
 
@@ -82,7 +82,8 @@ Distributed under the [MIT License](LICENSE).
 [npm-url]: https://npmjs.org/package/deep-freeze-node
 [downloads-image]: https://img.shields.io/npm/dm/deep-freeze-node.svg
 [downloads-url]: https://npmjs.org/package/deep-freeze-node
-[license]: https://img.shields.io/npm/l/deep-freeze-node.svg
+[license-image]: https://img.shields.io/npm/l/deep-freeze-node.svg
 [license-url]: https://github.com/AnatoliyGatt/deep-freeze-node/blob/master/LICENSE
 [travis-image]: https://img.shields.io/travis/AnatoliyGatt/deep-freeze-node/master.svg
 [travis-url]: https://travis-ci.org/AnatoliyGatt/deep-freeze-node
+[npm-statistics-image]: https://nodei.co/npm/deep-freeze-node.png?downloads=true&downloadRank=true&stars=true
