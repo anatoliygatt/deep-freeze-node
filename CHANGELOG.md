@@ -1,7 +1,7 @@
 1.0.4 / 2015-07-28
 ==================
 
-* Fix critical mistake in README.md
+* Fixed critical mistake in README.md
 
 1.0.3 / 2015-07-28
 ==================
