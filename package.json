@@ -1,6 +1,6 @@
 {
   "name": "deep-freeze-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Recursively Object.freeze() objects.",
   "keywords": [
     "deep",
