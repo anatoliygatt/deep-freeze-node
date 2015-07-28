@@ -29,7 +29,7 @@ var person = {
     }
 };
 
-freeze(person);
+person = freeze(person);
 
 person.name = "Jack";
 person.surname = "Jackson";
