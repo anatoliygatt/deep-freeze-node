@@ -1,3 +1,9 @@
+1.0.3 / 2015-07-28
+==================
+
+* Updated index.js documentation comments
+* Updated deep-freeze.js documentation comments
+
 1.0.2 / 2015-07-28
 ==================
 
