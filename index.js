@@ -11,8 +11,8 @@
 
 /**
  * @public
- * @description Expose function to deep freeze object.
- * @returns {Function} - Function to deep freeze object.
+ * @description Expose function to deep freeze objects.
+ * @returns {Function} - Function to deep freeze objects.
  */
 
 module.exports = require("./lib/deep-freeze");
