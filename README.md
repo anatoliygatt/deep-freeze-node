@@ -7,6 +7,8 @@ Recursively `Object.freeze()` objects.
 [![License][license]][license-url]
 [![Travis Build][travis-image]][travis-url]
 
+[![NPM Statistics](https://nodei.co/npm/deep-freeze-node.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/deep-freeze-node/)
+
 ## Installation
 
 `npm install deep-freeze-node`
