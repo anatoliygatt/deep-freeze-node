@@ -61,7 +61,7 @@ console.log(person.occupation);
 
 ***
 
-```
+```javascript
 John
 Johnson
 undefined
