@@ -15,7 +15,12 @@ describe("deep-freeze", function() {
                     street: "1st Street",
                     city: "Los Angeles",
                     country: "USA"
-                }
+                },
+                vehicles: [
+                    "BMW",
+                    "Ferrari",
+                    "Lamborghini"
+                ]
             };
 
             expectedPerson = {
@@ -26,7 +31,12 @@ describe("deep-freeze", function() {
                     street: "1st Street",
                     city: "Los Angeles",
                     country: "USA"
-                }
+                },
+                vehicles: [
+                    "BMW",
+                    "Ferrari",
+                    "Lamborghini"
+                ]
             }
         });
 
@@ -41,6 +51,10 @@ describe("deep-freeze", function() {
                 city: "San Francisco",
                 country: "USA"
             };
+            person.vehicles = [
+                "Toyota"
+            ];
+            person.vehicles[1] = "Honda";
 
             assert.deepEqual(person, expectedPerson, "any object properties should not be overridden");
         });
