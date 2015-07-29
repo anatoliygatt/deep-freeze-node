@@ -26,7 +26,12 @@ var person = {
         street: "1st Street",
         city: "Los Angeles",
         country: "USA"
-    }
+    },
+    vehicles: [
+        "BMW",
+        "Ferrari",
+        "Lamborghini"
+    ]
 };
 
 person = freeze(person);
@@ -40,6 +45,9 @@ person.address = {
     city: "San Francisco",
     country: "USA"
 };
+person.vehicles = [
+    "Toyota"
+];
 person.occupation = "Lawyer";
 
 console.log(person.name);
@@ -47,6 +55,7 @@ console.log(person.surname);
 console.log(person.nickname);
 console.log(person.age);
 console.log(person.address);
+console.log(person.vehicles);
 console.log(person.occupation);
 ```
 
@@ -55,13 +64,18 @@ console.log(person.occupation);
 ```
 John
 Johnson
+undefined
 26
 { 
     street: "1st Street", 
     city: "Los Angeles", 
     country: "USA" 
 }
-undefined
+[
+    "BMW",
+    "Ferrari",
+    "Lamborghini"
+]
 undefined
 ```
 
