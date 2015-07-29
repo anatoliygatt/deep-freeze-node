@@ -54,7 +54,6 @@ describe("deep-freeze", function() {
             person.vehicles = [
                 "Toyota"
             ];
-            person.vehicles[1] = "Honda";
 
             assert.deepEqual(person, expectedPerson, "any object properties should not be overridden");
         });
