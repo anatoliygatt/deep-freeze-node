@@ -1,7 +1,7 @@
 /**
  * @module index
  * @description Entry point for deep-freeze-node module.
- * @version 1.0.6
+ * @version 1.0.7
  * @author Anatoliy Gatt [anatoliy.gatt@aol.com]
  * @copyright Copyright (c) 2015 Anatoliy Gatt
  * @license MIT
