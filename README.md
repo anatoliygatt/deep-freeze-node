@@ -8,6 +8,7 @@ Recursively `Object.freeze()` objects.
 [![devDependencies Status][devDependencies-status-badge]][devDependencies-status-page-url]
 
 [![Travis CI Build Status][travis-ci-build-status-badge]][travis-ci-build-status-page-url]
+[![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 
 [![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
@@ -108,5 +109,8 @@ Distributed under the [MIT License](LICENSE).
 
 [travis-ci-build-status-badge]: https://img.shields.io/travis/AnatoliyGatt/deep-freeze-node.svg?style=flat-square
 [travis-ci-build-status-page-url]: https://travis-ci.org/AnatoliyGatt/deep-freeze-node
+
+[code-climate-status-badge]: https://img.shields.io/codeclimate/github/AnatoliyGatt/deep-freeze-node.svg?style=flat-square
+[code-climate-status-page-url]: https://codeclimate.com/github/AnatoliyGatt/deep-freeze-node
 
 [npm-package-statistics-badge]: https://nodei.co/npm/deep-freeze-node.png?downloads=true&downloadRank=true&stars=true
