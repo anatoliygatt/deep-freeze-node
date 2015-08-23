@@ -1,4 +1,4 @@
-# deep-freeze for Node.js
+![deep-freeze-node Logo][logo]
 
 Recursively `Object.freeze()` objects.
 
@@ -97,6 +97,8 @@ $ npm test
 ## License
 
 Distributed under the [MIT License](LICENSE).
+
+[logo]: https://cldup.com/eoIsKXU7s7.png
 
 [npm-package-url]: https://npmjs.org/package/deep-freeze-node
 
