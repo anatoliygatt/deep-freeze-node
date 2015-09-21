@@ -54,6 +54,7 @@
   "optionalDependencies": {},
   "engines": {
     "node": ">= 0.10.0",
+    "iojs": ">= 1.0.0",
     "npm": ">= 1.2.14"
   },
   "os": [
