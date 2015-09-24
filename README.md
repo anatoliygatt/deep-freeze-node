@@ -22,39 +22,39 @@ Recursively `Object.freeze()` objects.
 ## Usage Example
 
 ```javascript
-var freeze = require("deep-freeze-node");
+var freeze = require('deep-freeze-node');
 
 var person = {
-    name: "John",
-    surname: "Johnson",
+    name: 'John',
+    surname: 'Johnson',
     age: 26,
     address: {
-        street: "1st Street",
-        city: "Los Angeles",
-        country: "USA"
+        street: '1st Street',
+        city: 'Los Angeles',
+        country: 'USA'
     },
     vehicles: [
-        "BMW",
-        "Ferrari",
-        "Lamborghini"
+        'BMW',
+        'Ferrari',
+        'Lamborghini'
     ]
 };
 
 person = freeze(person);
 
-person.name = "Jack";
-person.surname = "Jackson";
-person.nickname = "JJ";
+person.name = 'Jack';
+person.surname = 'Jackson';
+person.nickname = 'JJ';
 person.age = 18;
 person.address = {
-    street: "Third Street",
-    city: "San Francisco",
-    country: "USA"
+    street: 'Third Street',
+    city: 'San Francisco',
+    country: 'USA'
 };
 person.vehicles = [
-    "Toyota"
+    'Toyota'
 ];
-person.occupation = "Lawyer";
+person.occupation = 'Lawyer';
 
 console.log(person.name);
 console.log(person.surname);
@@ -73,14 +73,14 @@ Johnson
 undefined
 26
 { 
-    street: "1st Street", 
-    city: "Los Angeles", 
-    country: "USA" 
+    street: '1st Street', 
+    city: 'Los Angeles', 
+    country: 'USA' 
 }
 [
-    "BMW",
-    "Ferrari",
-    "Lamborghini"
+    'BMW',
+    'Ferrari',
+    'Lamborghini'
 ]
 undefined
 ```
