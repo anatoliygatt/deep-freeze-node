@@ -7,7 +7,7 @@
  * @license MIT
  */
 
-"use strict";
+'use strict';
 
 /**
  * @public
@@ -15,4 +15,4 @@
  * @returns {Function} - Function to deep freeze objects.
  */
 
-module.exports = require("./lib/deep-freeze");
+module.exports = require('./lib/deep-freeze');
