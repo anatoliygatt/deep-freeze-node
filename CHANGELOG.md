@@ -1,3 +1,20 @@
+1.1.0 / 2015-10-02
+==================
+
+* Add author.url to package.json
+* Replace " with ' in definitions of all strings in README.md code samples
+* Replace " with ' in definitions of all strings in index.js
+* Replace " with ' in definitions of all strings in deep-freeze.js tests
+* Replace " with ' in definitions of all strings in deep-freeze.js
+* Update .travis.yml to run tests against node v4.0.0
+* Update .travis.yml to run tests against all major versions of iojs from 1.0.0 to 3.0.0
+* Add iojs (>= 1.0.0) to engines in package.json
+* [CodeClimate] Fix 'The body of a for in should be wrapped in an if statement to filter unwanted properties from the prototype' in deep-freeze.js
+* [CodeClimate] Fix 'Confusing use of negation operator' in deep-freeze.js
+* Add npm (>= 1.2.14) to engines in package.json
+* Fix node-download-page-url in README.md
+* Change node version from (>= 0.10.x) to (>= 0.10.0) in package.json
+
 1.0.9 / 2015-08-23
 ==================
 
