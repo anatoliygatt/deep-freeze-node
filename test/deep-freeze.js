@@ -6,7 +6,7 @@ describe('deep-freeze', function () {
         var person = {};
         var expectedPerson = {};
 
-        beforeEach(function() {
+        beforeEach(function () {
             person = {
                 name: 'John',
                 surname: 'Johnson',
