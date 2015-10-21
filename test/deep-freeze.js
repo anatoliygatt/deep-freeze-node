@@ -2,7 +2,7 @@ var assert = require('assert');
 var freeze = require('../lib/deep-freeze');
 
 describe('deep-freeze', function () {
-    describe('init', function() {
+    describe('init', function () {
         var person = {};
         var expectedPerson = {};
 
