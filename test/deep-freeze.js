@@ -40,7 +40,7 @@ describe('deep-freeze', function () {
             }
         });
 
-        it('should not override any object properties', function() {
+        it('should not override any object properties', function () {
             person = freeze(person);
 
             person.name = 'Jack';
@@ -58,7 +58,7 @@ describe('deep-freeze', function () {
             assert.deepEqual(person, expectedPerson, 'any object properties should not be overridden');
         });
 
-        it('should not add new properties to an object', function() {
+        it('should not add new properties to an object', function () {
             person = freeze(person);
 
             person.occupation = 'Lawyer';
