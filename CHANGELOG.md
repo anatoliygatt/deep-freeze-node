@@ -1,3 +1,15 @@
+1.1.1 / 2015-10-25
+==================
+
+* Fix anonymous functions declaration coding style in deep-freeze.js tests
+* Fix anonymous function declaration coding style in deep-freeze.js
+* Fix 'if statement' coding style in deep-freeze.js
+* Update dev dependencies
+* Update .travis.yml to run tests against node v4.2.0
+* Remove manual deletion script of coverage directory in .travis.yml
+* Replace unencrypted CodeClimate repo_token with encrypted one in .travis.yml
+* Update .travis.yml to run tests against node v4.1.0
+
 1.1.0 / 2015-10-02
 ==================
 
