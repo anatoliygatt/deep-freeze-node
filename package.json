@@ -5,8 +5,8 @@
   "keywords": [
     "deep",
     "object",
-    "properties",
     "array",
+    "properties",
     "freeze",
     "recursive",
     "node"
