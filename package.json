@@ -4,11 +4,11 @@
   "description": "Recursively Object.freeze() objects.",
   "keywords": [
     "deep",
+    "recursive",
     "object",
     "array",
     "properties",
     "freeze",
-    "recursive",
     "node"
   ],
   "homepage": "https://github.com/AnatoliyGatt/deep-freeze-node",
