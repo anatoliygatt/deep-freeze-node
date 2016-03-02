@@ -1,3 +1,17 @@
+1.1.2 / 2016-03-02
+==================
+
+* Update copyright in deep-freeze.js
+* Update copyright in index.js
+* Update copyright in LICENSE
+* Update dev dependencies
+* Fix invalid publishConfig value in package.json
+* Update package.json
+* Add keywords to package.json
+* Update .travis.yml to run tests against node v5.0.0
+* Remove node v4.2.0 from testing environments in .travis.yml
+* Remove node v4.1.0 from testing environments in .travis.yml
+
 1.1.1 / 2015-10-25
 ==================
 
