@@ -47,14 +47,12 @@ person.name = 'Jack';
 person.surname = 'Jackson';
 person.nickname = 'JJ';
 person.age = 18;
-person.address = {
-    street: 'Third Street',
-    city: 'San Francisco',
-    country: 'USA'
-};
-person.vehicles = [
-    'Toyota'
-];
+person.address.street = 'Third Street';
+person.address.city = 'San Francisco';
+person.address.country = 'USA';
+person.vehicles[0] = 'Toyota';
+delete person.vehicles[1]
+delete person.vehicles[2]
 person.occupation = 'Lawyer';
 
 console.log(person.name);

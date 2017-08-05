@@ -35,6 +35,7 @@ describe('deep-freeze', function() {
     it('should not override any object properties', function() {
       person = freeze(person);
 
+<<<<<<< HEAD
       person.name = 'Jack';
       person.surname = 'Jackson';
       person.age = 18;
@@ -44,6 +45,17 @@ describe('deep-freeze', function() {
         country: 'USA'
       };
       person.vehicles = ['Toyota'];
+=======
+            person.name = 'Jack';
+            person.surname = 'Jackson';
+            person.age = 18;
+            person.address.street = 'Third Street';
+            person.address.city = 'San Francisco';
+            person.address.country = 'USA';
+            person.vehicles[0] = 'Toyota';
+            delete person.vehicles[1]
+            delete person.vehicles[2]
+>>>>>>> origin/master
 
       assert.deepEqual(
         person,
