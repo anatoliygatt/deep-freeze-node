@@ -12,6 +12,7 @@ Recursively `Object.freeze()` objects.
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 [![Code Climate Test Coverage Status][code-climate-test-coverage-status-badge]][code-climate-test-coverage-status-page-url]
 [![Inch CI Documentation Coverage Status][inch-ci-documentation-coverage-status-badge]][inch-ci-documentation-coverage-status-page-url]
+[![Styled with Prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 [![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
@@ -72,10 +73,10 @@ John
 Johnson
 undefined
 26
-{ 
-    street: '1st Street', 
-    city: 'Los Angeles', 
-    country: 'USA' 
+{
+    street: '1st Street',
+    city: 'Los Angeles',
+    country: 'USA'
 }
 [
     'BMW',
