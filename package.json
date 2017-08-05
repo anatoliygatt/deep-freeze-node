@@ -23,7 +23,13 @@
     "url": "http://anatoliygatt.com"
   },
   "contributors": [],
-  "files": ["LICENSE", "CHANGELOG.md", "README.md", "index.js", "lib/"],
+  "files": [
+    "LICENSE",
+    "CHANGELOG.md",
+    "README.md",
+    "index.js",
+    "lib/"
+  ],
   "main": "index.js",
   "bin": {},
   "man": {},
@@ -41,9 +47,9 @@
   "config": {},
   "dependencies": {},
   "devDependencies": {
-    "codeclimate-test-reporter": "^0.4.0",
+    "codeclimate-test-reporter": "^0.5.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.1.2"
+    "mocha": "^3.5.0"
   },
   "peerDependencies": {},
   "bundledDependencies": [],
@@ -53,8 +59,17 @@
     "iojs": ">= 1.0.0",
     "npm": ">= 1.2.14"
   },
-  "os": ["darwin", "linux", "win32"],
-  "cpu": ["x64", "ia32", "arm", "mips"],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "ia32",
+    "arm",
+    "mips"
+  ],
   "preferGlobal": false,
   "private": false,
   "publishConfig": {}
