@@ -1,3 +1,17 @@
+1.1.3 / 2017-08-05
+==================
+
+* Support only node v6+ and npm v3+
+* Update .travis.yml
+* Remove artifacts
+* Add package-lock.json
+* Update dev dependencies
+* Update README.md
+* Integrate prettier
+* Tests are now changing deep properties instead of only top-level properties
+* Update .gitignore
+
+
 1.1.2 / 2016-03-02
 ==================
 
