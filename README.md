@@ -12,7 +12,7 @@ Recursively `Object.freeze()` objects.
 [![Code Climate Status][code-climate-status-badge]][code-climate-status-page-url]
 [![Code Climate Test Coverage Status][code-climate-test-coverage-status-badge]][code-climate-test-coverage-status-page-url]
 [![Inch CI Documentation Coverage Status][inch-ci-documentation-coverage-status-badge]][inch-ci-documentation-coverage-status-page-url]
-[![Styled with Prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+[![Styled with Prettier][styled-with-prettier-badge]][styled-with-prettier-page-url]
 
 [![NPM Package Statistics][npm-package-statistics-badge]][npm-package-url]
 
@@ -125,5 +125,8 @@ Distributed under the [MIT License](LICENSE).
 
 [inch-ci-documentation-coverage-status-badge]: https://inch-ci.org/github/AnatoliyGatt/deep-freeze-node.svg?style=flat-square
 [inch-ci-documentation-coverage-status-page-url]: https://inch-ci.org/github/AnatoliyGatt/deep-freeze-node
+
+[styled-with-prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
+[styled-with-prettier-page-url]: https://github.com/prettier/prettier
 
 [npm-package-statistics-badge]: https://nodei.co/npm/deep-freeze-node.png?downloads=true&downloadRank=true&stars=true
