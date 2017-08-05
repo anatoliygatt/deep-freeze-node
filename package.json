@@ -23,13 +23,7 @@
     "url": "http://anatoliygatt.com"
   },
   "contributors": [],
-  "files": [
-    "LICENSE",
-    "CHANGELOG.md",
-    "README.md",
-    "index.js",
-    "lib/"
-  ],
+  "files": ["LICENSE", "CHANGELOG.md", "README.md", "index.js", "lib/"],
   "main": "index.js",
   "bin": {},
   "man": {},
@@ -55,21 +49,11 @@
   "bundledDependencies": [],
   "optionalDependencies": {},
   "engines": {
-    "node": ">= 0.10.0",
-    "iojs": ">= 1.0.0",
-    "npm": ">= 1.2.14"
+    "node": ">= 6.0.0",
+    "npm": ">= 3.0.0"
   },
-  "os": [
-    "darwin",
-    "linux",
-    "win32"
-  ],
-  "cpu": [
-    "x64",
-    "ia32",
-    "arm",
-    "mips"
-  ],
+  "os": ["darwin", "linux", "win32"],
+  "cpu": ["x64", "ia32", "arm", "mips"],
   "preferGlobal": false,
   "private": false,
   "publishConfig": {}
