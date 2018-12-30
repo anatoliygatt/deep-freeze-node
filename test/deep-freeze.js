@@ -16,6 +16,7 @@ describe('deep-freeze', function() {
           city: 'Los Angeles',
           country: 'USA'
         },
+        spouse: null,
         vehicles: ['BMW', 'Ferrari', 'Lamborghini']
       };
 
@@ -28,8 +29,30 @@ describe('deep-freeze', function() {
           city: 'Los Angeles',
           country: 'USA'
         },
+        spouse: null,
         vehicles: ['BMW', 'Ferrari', 'Lamborghini']
       };
+    });
+
+    it('should not fail if object is null', function() {
+      assert.doesNotThrow(function() {
+        var result = freeze(null);
+        assert.strictEqual(result, null)
+      });
+    });
+
+    it('should not fail if object is undefined', function() {
+      assert.doesNotThrow(function() {
+        var result = freeze(undefined);
+        assert.strictEqual(result, undefined)
+      });
+    });
+
+    it('should not fail if object is false', function() {
+      assert.doesNotThrow(function() {
+        var result = freeze(false);
+        assert.strictEqual(result, false)
+      });
     });
 
     it('should not override any object properties', function() {
@@ -49,6 +72,7 @@ describe('deep-freeze', function() {
       person.address.street = 'Third Street';
       person.address.city = 'San Francisco';
       person.address.country = 'USA';
+      person.spouse = 'Cindy'
       person.vehicles[0] = 'Toyota';
 
       delete person.vehicles[1];
