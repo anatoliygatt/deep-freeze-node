@@ -52,8 +52,6 @@
     "node": ">= 6.0.0",
     "npm": ">= 3.0.0"
   },
-  "os": ["darwin", "linux", "win32"],
-  "cpu": ["x64", "ia32", "arm", "mips"],
   "preferGlobal": false,
   "private": false,
   "publishConfig": {}
